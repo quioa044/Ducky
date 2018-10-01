@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "object_hole",
     "eventList": [
-        
+        {
+            "id": "d501c92b-eda4-4c8a-9b11-57f44e8e3730",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "edf3996b-2ba8-4b89-9d4f-9d4d4c501dbe"
+        },
+        {
+            "id": "15333e1f-b47b-4d3b-8819-1200e442f7ef",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "edf3996b-2ba8-4b89-9d4f-9d4d4c501dbe"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "eb550518-f2f0-44f6-aece-7f9cc9f9596a",
     "visible": true
 }
