@@ -7,3 +7,10 @@
 timeline_index = timeline_main_room;
 timeline_loop = 1;
 timeline_running = 1;
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 5CBDFC8F
+/// @DnDArgument : "lives" "8"
+
+__dnd_lives = real(8);
