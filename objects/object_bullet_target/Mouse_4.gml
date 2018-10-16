@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 4F2EB3B8
+/// @DnDApplyTo : 294c3a3a-e82e-42ba-be3d-e5032ab19678
+with(object_bullet_target) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 208FD91B
