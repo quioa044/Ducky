@@ -15,8 +15,8 @@ draw_set_font(font_in_game);
 /// @DnDHash : 68F5667B
 /// @DnDArgument : "x" "-174"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "50"
+/// @DnDArgument : "y" "55"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Final score ""
 /// @DnDArgument : "var" "global.end_score"
-draw_text(x + -174, y + 50, string("Final score ") + string(global.end_score));
+draw_text(x + -174, y + 55, string("Final score ") + string(global.end_score));
