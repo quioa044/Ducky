@@ -5,12 +5,12 @@
     "name": "object_gameover",
     "eventList": [
         {
-            "id": "c934ea70-9293-49a9-ae5d-e190e77bfd3a",
+            "id": "428ef3fd-abed-408c-baee-55856540a6b8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 64,
             "eventtype": 8,
             "m_owner": "0092bc0a-c4e7-4cbc-a016-7efe1132033d"
         }

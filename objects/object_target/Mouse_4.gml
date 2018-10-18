@@ -8,9 +8,9 @@ with(object_target) instance_destroy();
 /// @DnDVersion : 1
 /// @DnDHash : 066D628A
 /// @DnDApplyTo : dfa43b7a-7a31-48db-85c6-364a3140f1db
-/// @DnDArgument : "score" "20"
+/// @DnDArgument : "score" "30"
 /// @DnDArgument : "score_relative" "1"
 with(object_controller) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-__dnd_score += real(20);
+__dnd_score += real(30);
 }
