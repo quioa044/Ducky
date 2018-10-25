@@ -9,9 +9,8 @@ draw_text(50, 10, string("Score: ") + string(__dnd_score));
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 0FBE5B39
-/// @DnDArgument : "color" "$FFFFFF00"
-draw_set_colour($FFFFFF00 & $ffffff);
-draw_set_alpha(($FFFFFF00 >> 24) / $ff);
+draw_set_colour($FFFFFFFF & $ffffff);
+draw_set_alpha(($FFFFFFFF >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
