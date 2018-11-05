@@ -13,3 +13,10 @@ __dnd_score += real(100);
 /// @DnDVersion : 1
 /// @DnDHash : 237122BC
 instance_destroy();
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0A6A26BA
+/// @DnDArgument : "soundid" "sound_monster"
+/// @DnDSaveInfo : "soundid" "f7e6e69a-e0b0-435e-83d6-531b145545f4"
+audio_play_sound(sound_monster, 0, 0);

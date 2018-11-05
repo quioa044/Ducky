@@ -20,3 +20,10 @@ draw_set_font(font_in_game);
 /// @DnDArgument : "caption" ""Final score ""
 /// @DnDArgument : "var" "global.end_score"
 draw_text(x + -174, y + 55, string("Final score ") + string(global.end_score));
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 6F904D48
+/// @DnDArgument : "soundid" "sound_gameover"
+/// @DnDSaveInfo : "soundid" "f53437e2-e18d-4918-9969-57fc4922c74e"
+audio_play_sound(sound_gameover, 0, 0);

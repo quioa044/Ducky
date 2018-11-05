@@ -14,3 +14,10 @@ with(object_controller) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 __dnd_score += real(30);
 }
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 6DE0A5D7
+/// @DnDArgument : "soundid" "sound_flying_targets"
+/// @DnDSaveInfo : "soundid" "5c852ab2-4435-42ec-8ef3-870cd1f2cc6e"
+audio_play_sound(sound_flying_targets, 0, 0);
